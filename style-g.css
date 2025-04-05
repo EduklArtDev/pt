@@ -1,0 +1,98 @@
+*{
+    transition: 0.3s;
+}
+body {
+    background-color: #12151a;
+    color: #6b7078;
+}
+
+h1 {
+    color: #ffffff !important;  
+}
+h1 a{
+    color: #ffffff;
+}
+
+h2, h3, h4, li {
+    color: #dcdcdc;
+}
+
+p {
+    color: #6b7078;
+}
+
+a {
+    color: #6b7078;
+}
+
+nav {
+    background-color: rgb(1, 4, 9);
+    padding: 1% 2%  !important;
+    border: 1px solid #3D444D;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    color: #dcdcdc;
+}
+nav header a{
+    margin-right: 55px;
+}
+nav header a:last-child{
+    margin-right: 0;
+}
+nav header a:first-child{
+    color: #1246B9;
+    text-decoration: underline;
+}
+article h1{
+    font-size: 3em;
+}
+article{
+    margin: 2% 0 !important;
+}
+.content{
+    margin: 5% 0 0 0 !important;
+}
+article a{
+    color: #1246B9
+}
+button {
+    background-color: #12151c;
+    color: #ffffff;
+}
+
+.card {
+    background-color: rgb(21, 27, 35);
+    border: 1px solid #3D444D;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #6b7078;
+}
+    
+.edu{
+    margin-left: 2%;
+}
+.list-group-item {
+    background-color: rgb(21, 27, 35);  /* fundo escuro */
+    color: white;               /* texto branco */
+    border: 1px solid #3D444D;
+  }
+
+  .list-group-item i {
+    margin-right: 8px;
+    color: #6b7078; /* cor dos ícones (amarelo Bootstrap) */
+  }
+
+  .list-group-item:hover {
+    background-color: #495057;  /* cor ao passar o mouse */
+    cursor: pointer;
+    color: #1246B9;
+
+  }
