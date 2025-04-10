@@ -4,6 +4,10 @@
         font-size: 14px;
     }
 
+    nav header {
+        display: none;
+    }
+
     h1 {
         font-size: 22px;
     }
@@ -11,7 +15,7 @@
     nav {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
     }
 
     .card, .projetos, .contato {
