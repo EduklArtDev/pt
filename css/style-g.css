@@ -48,6 +48,17 @@ nav header a:first-child{
     color: #1246B9;
     text-decoration: underline;
 }
+.navbar-menu-btn {
+    display: none;
+    background-color: #12151c;
+    color: #ffffff;
+    border: 1px solid #3D444D;
+}
+.navbar-menu-btn:hover {
+    background-color: #495057;
+    color: #ffffff;
+    border-color: #495057;
+}
 article h1{
     font-size: 3em;
 }

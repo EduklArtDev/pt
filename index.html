@@ -12,12 +12,37 @@
 <body>
   
 
-  <div class="container">
+  <div class="container container-xxl mx-auto">
 
-    <nav class="navbar">
-      <h1><a href="">EduklArtDev </a></h1>
-      <header>
-        <a href="#" id="sobre">Sobre</a><a href="#" id="projetos">...</a><a href="#" id="ctt">Contato</a><a href="https://github.com/EduklArtDev" target="_blank">GitHub</a>
+    <nav class="navbar d-flex align-items-stretch" id="navbar">
+      <div class="navbar-actions flex-fill d-flex justify-content-between">
+        <h1 class="fs-4 fs-md-3 fs-lg-1"><a href="">EduklArtDev </a></h1>
+        <button
+          id="navbar-menu-btn"
+          class="navbar-menu-btn btn btn-primary btn-sm d-block d-md-none"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
+      </div>
+      <header class="d-none d-md-flex">
+        <a href="#" id="sobre" class="p-2 w-100">Sobre</a>
+        <a href="#" id="projetos" class="p-2 w-100">...</a>
+        <a href="#" id="ctt" class="p-2 w-100">Contato</a>
+        <a href="https://github.com/EduklArtDev" target="_blank" class="p-2 w-100">GitHub</a>
       </header>
     </nav>
 
